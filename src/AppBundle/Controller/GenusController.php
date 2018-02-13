@@ -25,7 +25,7 @@ class GenusController extends Controller
             'OCTOOOOOOOOOOOOOOOOOOOO!'
         ];
 
-        $html = $this->renderView('genus/show.html.twig', [
+        $html = $this->renderView('genus/show_extra.html.twig', [
             'name' => $genusName,
             'notes' => $notes
         ]);
